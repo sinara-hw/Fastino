@@ -1,6 +1,6 @@
 [Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$ChannelIndex
@@ -11,7 +11,7 @@ TimestampOutput=0
 SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
-PinSwapBy_Pin=1
+PinSwapBy_Pin=0
 AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
@@ -294,37 +294,10 @@ DocumentUniqueId=QJSBKNFY
 
 [ProjectVariant1]
 UniqueID=4E8EF4FA-1004-4098-BFB3-EC9401DFD915
-Description=QFN
+Description=STD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=27
-Variation1=Designator=CLIP28|UniqueId=\YGSJQCSF|Kind=1|AlternatePart= 
-Variation2=Designator=CLIP29|UniqueId=\DPSAAHRU|Kind=1|AlternatePart= 
-Variation3=Designator=CLIP30|UniqueId=\TQEMVBGW|Kind=1|AlternatePart= 
-Variation4=Designator=CLIP31|UniqueId=\IRDLSPWC|Kind=1|AlternatePart= 
-Variation5=Designator=CLIP32|UniqueId=\RXRCUEFY|Kind=1|AlternatePart= 
-Variation6=Designator=CLIP37|UniqueId=\MHEKWSXV|Kind=1|AlternatePart= 
-Variation7=Designator=CLIP36|UniqueId=\CWETXJPP|Kind=1|AlternatePart= 
-Variation8=Designator=CLIP35|UniqueId=\AGUQNFJT|Kind=1|AlternatePart= 
-Variation9=Designator=CLIP34|UniqueId=\ETQMRETP|Kind=1|AlternatePart= 
-Variation10=Designator=CLIP33|UniqueId=\YKFBVAUU|Kind=1|AlternatePart= 
-Variation11=Designator=CLIP38|UniqueId=\QVEWCVWE|Kind=1|AlternatePart= 
-Variation12=Designator=CLIP39|UniqueId=\KFIMJRAH|Kind=1|AlternatePart= 
-Variation13=Designator=CLIP40|UniqueId=\OFJPUJIH|Kind=1|AlternatePart= 
-Variation14=Designator=CLIP41|UniqueId=\SEUMKXNK|Kind=1|AlternatePart= 
-Variation15=Designator=CLIP42|UniqueId=\ULEMWKEI|Kind=1|AlternatePart= 
-Variation16=Designator=CLIP47|UniqueId=\ULOOFURS|Kind=1|AlternatePart= 
-Variation17=Designator=CLIP46|UniqueId=\KOFGGKKD|Kind=1|AlternatePart= 
-Variation18=Designator=CLIP45|UniqueId=\VDRAAJJG|Kind=1|AlternatePart= 
-Variation19=Designator=CLIP44|UniqueId=\VDTXIDCK|Kind=1|AlternatePart= 
-Variation20=Designator=CLIP43|UniqueId=\XWDQFOTS|Kind=1|AlternatePart= 
-Variation21=Designator=CLIP48|UniqueId=\GBJTWXIG|Kind=1|AlternatePart= 
-Variation22=Designator=CLIP49|UniqueId=\UQXDHNDJ|Kind=1|AlternatePart= 
-Variation23=Designator=CLIP50|UniqueId=\FISAUROM|Kind=1|AlternatePart= 
-Variation24=Designator=CLIP51|UniqueId=\YGQRDCVO|Kind=1|AlternatePart= 
-Variation25=Designator=CLIP52|UniqueId=\HFKMYCTW|Kind=1|AlternatePart= 
-Variation26=Designator=CLIP27|UniqueId=\WCTNSGEY|Kind=1|AlternatePart= 
-Variation27=Designator=IC5|UniqueId=\KKGGCGQP\GNPRJQGO|Kind=1|AlternatePart= 
+VariationCount=0
 ParamVariationCount=0
 
 [Configuration1]
@@ -353,7 +326,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
@@ -459,7 +432,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Bullzip PDF Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -531,7 +504,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -553,7 +526,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -625,7 +598,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -662,7 +635,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -842,7 +815,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -886,7 +859,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
