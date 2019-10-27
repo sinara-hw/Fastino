@@ -297,7 +297,7 @@ UniqueID=4E8EF4FA-1004-4098-BFB3-EC9401DFD915
 Description=STD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=32
+VariationCount=34
 Variation1=Designator=L8_1|UniqueId=\1XGIDEBDC\PIFNAPCJ|Kind=1|AlternatePart= 
 Variation2=Designator=L8_14|UniqueId=\14XGIDEBDC\PIFNAPCJ|Kind=1|AlternatePart= 
 Variation3=Designator=L8_10|UniqueId=\10XGIDEBDC\PIFNAPCJ|Kind=1|AlternatePart= 
@@ -330,6 +330,8 @@ Variation29=Designator=L8_17|UniqueId=\17XGIDEBDC\PIFNAPCJ|Kind=1|AlternatePart=
 Variation30=Designator=L8_23|UniqueId=\23XGIDEBDC\PIFNAPCJ|Kind=1|AlternatePart= 
 Variation31=Designator=L8_3|UniqueId=\3XGIDEBDC\PIFNAPCJ|Kind=1|AlternatePart= 
 Variation32=Designator=L8_8|UniqueId=\8XGIDEBDC\PIFNAPCJ|Kind=1|AlternatePart= 
+Variation33=Designator=R170|UniqueId=\KKBDQHSR|Kind=1|AlternatePart= 
+Variation34=Designator=R171|UniqueId=\CJQJOFBT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -948,6 +950,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
