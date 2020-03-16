@@ -309,23 +309,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJSBKNFY
 
-[Document17]
-DocumentPath=Fastino.Annotation
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [ProjectVariant1]
 UniqueID=4E8EF4FA-1004-4098-BFB3-EC9401DFD915
 Description=STD
