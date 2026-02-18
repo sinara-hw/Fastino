@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Fastino-DIOT.OutJob
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=PDF
 VariantName=STD_DIOT_ready
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother DCP-1610W series
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -52,7 +52,7 @@ OutputName2=P&P
 OutputCategory2=Assembly
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=4
 OutputEnabled2_OutputMedium3=0
@@ -65,7 +65,7 @@ OutputName3=Gerber Files
 OutputCategory3=Fabrication
 OutputDocumentPath3=
 OutputVariantName3=STD
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=3
 OutputEnabled3_OutputMedium3=0
@@ -78,7 +78,7 @@ OutputName4=NC Drill Files
 OutputCategory4=Fabrication
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=2
 OutputEnabled4_OutputMedium3=0
@@ -91,7 +91,7 @@ OutputName5=Bill of Materials
 OutputCategory5=Report
 OutputDocumentPath5=
 OutputVariantName5=STD
-OutputEnabled5=1
+OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=1
 OutputEnabled5_OutputMedium3=0
@@ -127,11 +127,11 @@ PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=Record=LayerStackReportView|Units=Metric|ColumnsCount=18|Column0Name=Name|Column0Title=Name|Column0Visible=True|Column1Name=Material|Column1Title=Material|Column1Visible=True|Column2Name=Thickness|Column2Title=Thickness|Column2Visible=True|Column3Name=Constant|Column3Title=Constant|Column3Visible=True|Column4Name=DielectricConstant|Column4Title=Dk|Column4Visible=False|Column5Name=CoverlayExpansion|Column5Title=Coverlay expansion|Column5Visible=False|Column6Name=ComponentPlacement|Column6Title=Orientation|Column6Visible=False|Column7Name=CopperOrientation|Column7Title=Copper Orientation|Column7Visible=False|Column8Name=Weight|Column8Title=Weight|Column8Visible=False|Column9Name=Process|Column9Title=Process|Column9Visible=False|Column10Name=Material.Manufacturer|Column10Title=Manufacturer|Column10Visible=False|Column11Name=Material.Description|Column11Title=Description|Column11Visible=False|Column12Name=LossTangent|Column12Title=Df|Column12Visible=False|Column13Name=Material.Constructions|Column13Title=Constructions|Column13Visible=False|Column14Name=Material.Resin|Column14Title=Resin|Column14Visible=False|Column15Name=Material.Frequency|Column15Title=Frequency|Column15Visible=False|Column16Name=Material.GlassTransTemp|Column16Title=GlassTransTemp|Column16Visible=False|Column17Name=PullbackDistance|Column17Title=Pullback distance|Column17Visible=False|DocumentPath=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Fastino\PCB\Fastino-DIOT.PCBDOC
 OutputType7=PCBDrawing
-OutputName7=Assemlby Drawing
+OutputName7=Assembly Drawing
 OutputCategory7=Documentation
 OutputDocumentPath7=Fastino-DIOT.PCBDwf
 OutputVariantName7=STD
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -154,9 +154,9 @@ Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=D:\Repozytoria\RPQS\Fastino\PCB\Fastino-DIOT.PCBDOC
 
 [PublishSettings]
-OutputFilePath2=D:\DESIGNS\SINARA\Fastino\Fastino-DIOT\fastino\PCB\Project Outputs for Fastino-DIOT\VariantName\
-ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Fastino-DIOT
+OutputFilePath2=D:\OneDrive-Creotech\Repozytoria\Creotech\fastino\PCB\Project Outputs for Fastino\VariantName\
+ReleaseManaged2=0
+OutputBasePath2=Project Outputs for Fastino\
 OutputPathMedia2==VariantName
 OutputPathMediaValue2==VariantName
 OutputPathOutputer2=[Output Type]
@@ -204,9 +204,9 @@ FFmpegPixelFormat3=0
 FFmpegQuality3=80
 WmvVideoCodecName3=Windows Media Video V7
 WmvQuality3=80
-OutputFilePath4=D:\Repozytoria\RPQS\Fastino\PCB\Project Outputs for Fastino-DIOT\VariantName\
-ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Fastino-DIOT
+OutputFilePath4=D:\OneDrive-Creotech\Repozytoria\Creotech\fastino\PCB\Project Outputs for Fastino\VariantName\
+ReleaseManaged4=0
+OutputBasePath4=Project Outputs for Fastino\
 OutputPathMedia4==VariantName
 OutputPathMediaValue4==VariantName
 OutputPathOutputer4=[Output Type]
@@ -233,7 +233,7 @@ PDFACompliance4=Disabled
 PDFVersion4=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\DESIGNS\SINARA\Fastino\Fastino-DIOT\fastino\PCB\Project Outputs for Fastino-DIOT\VariantName\
+RelativeOutputPath2=D:\OneDrive-Creotech\Repozytoria\Creotech\fastino\PCB\Project Outputs for Fastino\VariantName\
 OpenOutputs2=0
 AddToProject2=0
 TimestampFolder2=0
@@ -245,6 +245,6 @@ OpenIPCOutput2=0
 EnableReload2=0
 RelativeOutputPath3=
 OpenOutputs3=1
-RelativeOutputPath4=D:\Repozytoria\RPQS\Fastino\PCB\Project Outputs for Fastino-DIOT\VariantName\
+RelativeOutputPath4=D:\OneDrive-Creotech\Repozytoria\Creotech\fastino\PCB\Project Outputs for Fastino\VariantName\
 OpenOutputs4=0
 

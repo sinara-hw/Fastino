@@ -4304,38 +4304,6 @@ Variation203=Designator=IC15|UniqueId=\SYOYBESX\PAZMSLZC|Kind=1|AlternatePart=
 Variation204=Designator=IC16|UniqueId=\SYOYBESX\NXWQAZZR|Kind=1|AlternatePart=
 ParamVariationCount=1221
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Fastino-DIOT\Design Rule Check - Fastino-DIOT.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=..\..\..\..\..\mijm\AppData\Local\Temp\Qjz3DD4.xls
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=..\..\..\..\..\mijm\AppData\Local\Temp\Qjz8B01.xls
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=..\..\..\..\..\mijm\AppData\Local\Temp\Qjz2921.xls
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=..\..\..\..\..\mijm\AppData\Local\Temp\QjzAF8C.xls
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=..\..\..\..\..\mijm\AppData\Local\Temp\QjzBFDC.xls
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=..\..\..\..\..\MAREK~1.LIP\AppData\Local\Temp\QjzD0F1.xls
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=..\..\..\..\..\mijm\AppData\Local\Temp\QjzF270.xls
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=Z:\PCBs\altium\CernLib_2020.03.06\*.DbLib
 IncludeSubFolders=1
@@ -4346,7 +4314,7 @@ IncludeSubFolders=1
 
 [Parameter1]
 Name=rev
-Value=1.4.1
+Value=2.0
 
 [Configuration1]
 Name=Default Configuration
@@ -4481,6 +4449,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -4492,6 +4470,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -4744,6 +4732,11 @@ OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -5030,6 +5023,16 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
+Type160=1
+Type161=1
 
 [Difference Levels]
 Type1=1
@@ -5114,6 +5117,12 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -5277,6 +5286,10 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
